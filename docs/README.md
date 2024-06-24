@@ -1,6 +1,6 @@
 # Nova UI/UX Design AI Assistant & Plugin
 
-![NovaAI-Logo](NovaAI/blob/main/logo.png)
+![NovaAI-Logo](./logo.png)
 
 ## Overview
 
