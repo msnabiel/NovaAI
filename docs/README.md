@@ -1,6 +1,6 @@
 # Nova UI/UX Design AI Assistant & Plugin
 
-![Project Logo](NovaAI/Untitled design-2)
+![Project Logo](NovaAI/logo.png)
 
 ## Overview
 
