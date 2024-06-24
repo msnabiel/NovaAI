@@ -1,6 +1,6 @@
 # Nova UI/UX Design AI Assistant & Plugin
 
-![NovaAI-Logo](./logo.png width="100" height="100")
+<img src="./logo.png" alt="NovaAI-Logo" width="100" height="100">
 
 ## Overview
 
