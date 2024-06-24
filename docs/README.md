@@ -61,7 +61,7 @@ ui-ux-design-ai-assistant/
 
 ## Workflow
 
-(./workflow.png)
+![Workflow](./workflow.png)
 
 
 
