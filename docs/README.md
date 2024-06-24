@@ -16,7 +16,7 @@ The **UI/UX Design AI Personal Assistant** is a Figma plugin designed to assist 
 ## Folder Structure
 
 ```plaintext
-ui-ux-design-ai-assistant/
+NovaAI/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
@@ -77,8 +77,8 @@ ui-ux-design-ai-assistant/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/ui-ux-design-ai-assistant.git
-   cd ui-ux-design-ai-assistant/frontend
+   git clone https://github.com/msnabiel/NovaAI.git
+   cd NovaAI/frontend
    ```
 
 2. Install dependencies:
