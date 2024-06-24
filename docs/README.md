@@ -59,6 +59,12 @@ ui-ux-design-ai-assistant/
 └── README.md
 ```
 
+## Workflow
+
+(./workflow.png)
+
+
+
 ## Installation and Setup
 
 ### Prerequisites
@@ -139,4 +145,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or support, please contact [Syed Nabiel Hasaan M] (mailto:msyednabiel@gmail.com).
+For questions or support, please contact [Syed Nabiel Hasaan M](mailto:msyednabiel@gmail.com).
