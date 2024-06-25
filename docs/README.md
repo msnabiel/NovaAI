@@ -146,4 +146,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or support, please contact [Syed Nabiel Hasaan M](mailto:msyednabiel@gmail.com).
+For questions or support, please contact [Syed Nabiel Hasaan M](mailto:msyednabiel@gmail.com) or [Tharagaraman Balaji](mailto:tharagaraman2004@gmail.com).
