@@ -1,11 +1,12 @@
 # Nova UI/UX Design AI Assistant & Plugin
 
+
 ## Logo
 <img src="./logo.png" alt="NovaAI-Logo" width="100" height="100">
 
 ## Overview
 
-The **UI/UX Design AI Personal Assistant** is a Figma plugin designed to assist UI/UX designers with generating color palettes, suggesting icons, recommending fonts, and providing text suggestions seamlessly within the Figma environment. This plugin integrates with external APIs and utilizes machine learning models for enhanced design suggestions.
+The **UI/UX Design AI Personal Assistant** is a Figma plugin crafted to assist UI/UX designers by generating color palettes, suggesting icons, recommending fonts, and providing text suggestions directly within the Figma environment. This plugin integrates with various external APIs and utilizes machine learning models for enhanced design suggestions.
 
 ### Features
 
@@ -32,22 +33,22 @@ NovaAI/
 │   └── node_modules/
 ├── backend/
 │   ├── src/
-│   │   ├── app.py
-│   │   ├── config.py
-│   │   ├── api_handler.py
+│   │   ├── server.js
+│   │   ├── config.js
+│   │   ├── apiHandler.js
 │   │   ├── models/
-│   │   │   ├── text_model.py
-│   │   │   └── __init__.py
+│   │   │   ├── textModel.js
+│   │   │   └── index.js
 │   │   ├── static/
 │   │   ├── templates/
 │   │   ├── requirements.txt
-│   │   └── __init__.py
+│   │   └── index.js
 │   ├── data/
 │   │   ├── local_storage/
 │   │   └── remote_storage/
 │   ├── tests/
-│   │   ├── test_app.py
-│   │   └── test_api_handler.py
+│   │   ├── testServer.js
+│   │   └── testApiHandler.js
 │   ├── Dockerfile
 │   └── README.md
 ├── docs/
@@ -64,14 +65,11 @@ NovaAI/
 
 ![Workflow](./workflow.png)
 
-
-
 ## Installation and Setup
 
 ### Prerequisites
 
-- Node.js (for frontend development)
-- Python 3.x (for backend development)
+- Node.js (for both frontend and backend development)
 
 ### Frontend Setup
 
@@ -104,23 +102,16 @@ NovaAI/
    cd ../backend
    ```
 
-2. Set up a virtual environment (optional but recommended):
+2. Install dependencies:
 
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   npm install
    ```
 
-3. Install Python dependencies:
+3. Run the backend server:
 
    ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the backend server:
-
-   ```bash
-   python src/app.py
+   node src/server.js
    ```
 
 ## Usage
