@@ -8,6 +8,8 @@
 
 The **UI/UX Design AI Personal Assistant** is a Figma plugin crafted to assist UI/UX designers by generating color palettes, suggesting icons, recommending fonts, and providing text suggestions directly within the Figma environment. This plugin integrates with various external APIs and utilizes machine learning models for enhanced design suggestions.
 
+## Note: Work is being done, and repo is being updated as you read.
+
 ### Features
 
 - **Color Palette Suggestions**: Generates harmonious color palettes using the Adobe Color API.
@@ -33,22 +35,50 @@ NovaAI/
 │   └── node_modules/
 ├── backend/
 │   ├── src/
-│   │   ├── server.js
-│   │   ├── config.js
-│   │   ├── apiHandler.js
+│   │   ├── controllers/
+│   │   │   ├── fontController.js
+│   │   │   ├── colorController.js
+│   │   │   ├── textController.js
+│   │   │   └── index.js
+│   │   ├── services/
+│   │   │   ├── fontService.js
+│   │   │   ├── colorService.js
+│   │   │   ├── textService.js
+│   │   │   └── index.js
 │   │   ├── models/
 │   │   │   ├── textModel.js
 │   │   │   └── index.js
+│   │   ├── middlewares/
+│   │   │   └── errorHandler.js
+│   │   ├── routes/
+│   │   │   ├── fontRoutes.js
+│   │   │   ├── colorRoutes.js
+│   │   │   ├── textRoutes.js
+│   │   │   └── index.js
+│   │   ├── config/
+│   │   │   ├── config.js
+│   │   │   └── database.js
+│   │   ├── app.js
+│   │   ├── server.js
+│   │   ├── utils/
+│   │   │   ├── logger.js
+│   │   │   └── helper.js
 │   │   ├── static/
+│   │   │   ├── css/
+│   │   │   ├── js/
+│   │   │   └── images/
 │   │   ├── templates/
-│   │   ├── requirements.txt
-│   │   └── index.js
+│   │   │   └── index.html
+│   │   ├── package.json
+│   │   ├── package-lock.json
+│   │   └── node_modules/
 │   ├── data/
 │   │   ├── local_storage/
 │   │   └── remote_storage/
 │   ├── tests/
-│   │   ├── testServer.js
-│   │   └── testApiHandler.js
+│   │   ├── test_app.js
+│   │   ├── test_fontService.js
+│   │   └── test_apiHandler.js
 │   ├── Dockerfile
 │   └── README.md
 ├── docs/
