@@ -1,6 +1,5 @@
 # Nova UI/UX Design AI Assistant & Plugin
 
----
 
 ## Logo
 <img src="./logo.png" alt="NovaAI-Logo" width="100" height="100">
@@ -64,7 +63,7 @@ NovaAI/
 
 ## Workflow
 
-![Workflow](./workflow.png)
+![Workflow](./modified.png)
 
 ## Installation and Setup
 
