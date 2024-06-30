@@ -60,6 +60,7 @@ NovaAI/
 │   │   │   └── database.js
 │   │   ├── app.js
 │   │   ├── server.js
+│   │   ├── apiHandler.js
 │   │   ├── utils/
 │   │   │   ├── logger.js
 │   │   │   └── helper.js
